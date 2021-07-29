@@ -47,7 +47,7 @@ body {
   color: white;
   display: flex;
   justify-content: space-between;
-  margin-top: 10;;
+  margin-top: 10;
 }
 .login__container--remenber-me a {
   color: white;
@@ -55,6 +55,22 @@ body {
   text-decoration: none;
 }
 .login__container--remenber-me a:hover {
+  text-decoration: underline;
+}
+.login__container--start {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10;
+  align-self: center;
+}
+.login__container--start a {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.login__container--start a:hover {
   text-decoration: underline;
 }
 .login__container--social-media > div {
